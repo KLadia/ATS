@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ToolBar layoutX="-2.0" layoutY="-2.0" prefHeight="134.0" prefWidth="1202.0">
+         <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ambassador Tracking Service">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Text>
+            <Hyperlink text="login" translateX="280.0" translateY="30.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Hyperlink>
+         </items>
+      </ToolBar>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="44.0" layoutX="623.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="549.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="44.0" layoutX="622.0" layoutY="423.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="549.0" />
+      <ImageView fitHeight="559.0" fitWidth="458.0" layoutX="76.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../College_of_Engineering_Logo.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="902.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Upcoming Events">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="895.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Interested Parties">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="889.0" layoutY="697.0" text="complete intake application">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Hyperlink>
+      <Text layoutX="622.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." wrappingWidth="551.475830078125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label alignment="TOP_RIGHT" layoutX="625.0" layoutY="231.0" prefHeight="170.0" prefWidth="541.0" text="Label holder for upcoming events" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

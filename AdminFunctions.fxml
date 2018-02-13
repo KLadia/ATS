@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="ambassadortrackingservice.AdminFunctionsController">
+   <children>
+      <ToolBar layoutX="-302.0" layoutY="300.0" prefHeight="150.0" prefWidth="752.0" rotate="90.0">
+         <items>
+            <Circle fill="#cccccc" radius="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" translateX="20.0" />
+            <Label rotate="-90.0" text="User Label Holder" translateX="-20.0" />
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../add.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../view.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../edit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../logout.png" />
+               </image>
+            </ImageView>
+         </items>
+      </ToolBar>
+      <ComboBox layoutX="190.0" layoutY="628.0" prefHeight="27.0" prefWidth="266.0" promptText="Ambassador" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="32.0" layoutX="189.0" layoutY="41.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="416.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="32.0" layoutX="189.0" layoutY="567.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="416.0" />
+      <Text layoutX="202.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New Ambassador">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="202.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Ambassador Hours">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Accordion layoutX="721.0" layoutY="-3.0" prefHeight="755.0" prefWidth="489.0">
+        <panes>
+          <TitledPane animated="false" text="untitled 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="untitled 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="untitled 3">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" />
+        </panes>
+      </Accordion>
+      <TextField layoutX="193.0" layoutY="120.0" prefHeight="27.0" prefWidth="408.0" promptText="Full Name" />
+      <TextField layoutX="194.0" layoutY="161.0" prefHeight="27.0" prefWidth="407.0" promptText="Eagle Email" />
+      <Button layoutX="367.0" layoutY="510.0" mnemonicParsing="false" text="Submit" />
+      <Hyperlink layoutX="453.0" layoutY="77.0" text="import from application" />
+      <TextField layoutX="471.0" layoutY="629.0" prefHeight="27.0" prefWidth="132.0" promptText="Hours" />
+      <CheckBox layoutX="194.0" layoutY="201.0" mnemonicParsing="false" text="Civil Engineering" />
+      <CheckBox layoutX="194.0" layoutY="226.0" mnemonicParsing="false" text="Software Engineering" />
+      <CheckBox layoutX="194.0" layoutY="252.0" mnemonicParsing="false" text="Biomedical Engineering" />
+      <CheckBox layoutX="194.0" layoutY="278.0" mnemonicParsing="false" text="Environmental Engineering" />
+      <Button layoutX="273.0" layoutY="695.0" mnemonicParsing="false" text="Add to Event" />
+      <Button layoutX="406.0" layoutY="695.0" mnemonicParsing="false" text="Create New Event" />
+      <ComboBox layoutX="431.0" layoutY="318.0" prefHeight="27.0" prefWidth="157.0" promptText="Graduating Class" />
+      <ComboBox layoutX="193.0" layoutY="318.0" prefWidth="150.0" promptText="Catalog Year" />
+      <TextArea layoutX="188.0" layoutY="364.0" prefHeight="130.0" prefWidth="414.0" promptText="Short Bio" />
+   </children>
+</AnchorPane>

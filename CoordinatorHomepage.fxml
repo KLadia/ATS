@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ambassadortrackingservice.CoordinatorHomepageController">
+   <children>
+      <ToolBar layoutX="-302.0" layoutY="299.0" prefHeight="150.0" prefWidth="752.0" rotate="90.0">
+         <items>
+            <Circle fill="#cccccc" radius="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" translateX="20.0" />
+            <Label rotate="-90.0" text="User Label Holder" translateX="-20.0" />
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../add.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../view.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../edit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+               <image>
+                  <Image url="@../logout.png" />
+               </image>
+            </ImageView>
+         </items>
+      </ToolBar>
+      <LineChart layoutX="172.0" layoutY="406.0" prefHeight="320.0" prefWidth="430.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <PieChart layoutX="762.0" layoutY="20.0" prefHeight="316.0" prefWidth="411.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="32.0" layoutX="185.0" layoutY="31.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="416.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="32.0" layoutX="744.0" layoutY="357.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="416.0" />
+      <Text layoutX="193.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today's Agenda">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="748.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notifications">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label alignment="TOP_LEFT" layoutX="188.0" layoutY="77.0" prefHeight="284.0" prefWidth="409.0" text="Label holder for today's events including time, people attending, etc. You will be able to click a specific event to view a dropdown with more details (titled pane). To the right: placeholder for a pie chart detailing total number of enrolled ambassadors and percentage by major." wrapText="true" />
+      <Label alignment="TOP_LEFT" layoutX="748.0" layoutY="406.0" prefHeight="315.0" prefWidth="413.0" text="Label holder for notifications. These include pending applications, events, service hours to process. You can access this information through the toolbar as well. To the left: line graph detailing event attendance at loaded events. Shows past month. Must access info through tool bar to view previous months." wrapText="true" />
+   </children>
+</AnchorPane>
