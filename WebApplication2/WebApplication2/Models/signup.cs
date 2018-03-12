@@ -11,14 +11,26 @@ namespace WebApplication2.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class signup
     {
+        [DisplayName ("Event ID")]
         public int event_id { get; set; }
+
+        [DisplayName ("UID")]
         public int student_id { get; set; }
+
+        [DisplayName ("First Name")]
         public string fname { get; set; }
+
+        [DisplayName ("Last Name")]
         public string lname { get; set; }
+
+        [DisplayName ("Major")]
         public string major { get; set; }
+
+        [DisplayName ("EagleMail")]
         public string email { get; set; }
     }
 }
