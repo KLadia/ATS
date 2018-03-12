@@ -1,0 +1,3 @@
+atsdb.cjmzuqls8fvg.us-east-2.rds.amazonaws.com,1433
+username: atsmaster
+password: 5nackAttack?
