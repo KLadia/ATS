@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATSdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="events">
+    <Key>
+      <PropertyRef Name="event_id" />
+    </Key>
+    <Property Name="event_id" Type="int" Nullable="false" />
+    <Property Name="event_name" Type="nchar" MaxLength="20" />
+    <Property Name="date" Type="date" />
+    <Property Name="desc" Type="nchar" MaxLength="10" />
+    <Property Name="notes" Type="nchar" MaxLength="10" />
+    <Property Name="dress_code" Type="nchar" MaxLength="10" />
+    <Property Name="off_campus" Type="bit" />
+    <Property Name="address" Type="nchar" MaxLength="10" />
+    <Property Name="city" Type="nchar" MaxLength="10" />
+    <Property Name="state" Type="nchar" MaxLength="10" />
+    <Property Name="zipcode" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="signups">
+    <Key>
+      <PropertyRef Name="event_id" />
+    </Key>
+    <Property Name="event_id" Type="int" Nullable="false" />
+    <Property Name="student_id" Type="int" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="major" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_signups_Toevents">
+    <End Role="events" Type="Self.events" Multiplicity="1" />
+    <End Role="signups" Type="Self.signups" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="events">
+        <PropertyRef Name="event_id" />
+      </Principal>
+      <Dependent Role="signups">
+        <PropertyRef Name="event_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ATSdbModelStoreContainer">
+    <EntitySet Name="events" EntityType="Self.events" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="signups" EntityType="Self.signups" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_signups_Toevents" Association="Self.FK_signups_Toevents">
+      <End Role="events" EntitySet="events" />
+      <End Role="signups" EntitySet="signups" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
