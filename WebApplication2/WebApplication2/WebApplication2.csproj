@@ -151,27 +151,29 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\signupsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\event.cs">
+      <DependentUpon>eventsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\eventsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\eventsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\eventsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventsModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\signup.cs">
-      <DependentUpon>SignUpModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SignUpModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SignUpModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SignUpModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SignUpModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SignUpModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SignUpModel.edmx</DependentUpon>
+      <DependentUpon>eventsModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -186,27 +188,27 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\SignUpModel.Context.tt">
+    <Content Include="Models\eventsModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SignUpModel.Context.cs</LastGenOutput>
-      <DependentUpon>SignUpModel.edmx</DependentUpon>
+      <DependentUpon>eventsModel.edmx</DependentUpon>
+      <LastGenOutput>eventsModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\SignUpModel.tt">
+    <Content Include="Models\eventsModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SignUpModel.edmx</DependentUpon>
-      <LastGenOutput>SignUpModel.cs</LastGenOutput>
+      <DependentUpon>eventsModel.edmx</DependentUpon>
+      <LastGenOutput>eventsModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="Models\SignUpModel.edmx">
+    <EntityDeploy Include="Models\eventsModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SignUpModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>eventsModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\SignUpModel.edmx.diagram">
-      <DependentUpon>SignUpModel.edmx</DependentUpon>
+    <Content Include="Models\eventsModel.edmx.diagram">
+      <DependentUpon>eventsModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -233,11 +235,6 @@
     <Content Include="Views\Home\Events.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\signups\Create.cshtml" />
-    <Content Include="Views\signups\Delete.cshtml" />
-    <Content Include="Views\signups\Details.cshtml" />
-    <Content Include="Views\signups\Edit.cshtml" />
-    <Content Include="Views\signups\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
