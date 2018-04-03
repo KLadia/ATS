@@ -1,0 +1,11 @@
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.deps.json
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.runtimeconfig.json
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.runtimeconfig.dev.json
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.dll
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.pdb
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.csproj.CoreCompileInputs.cache
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.AssemblyInfoInputs.cache
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.AssemblyInfo.cs
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.dll
+C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.pdb
