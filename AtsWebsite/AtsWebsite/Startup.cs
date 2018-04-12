@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using AtsWebsite.Models;
 
 namespace AtsWebsite
 {
@@ -22,6 +24,9 @@ namespace AtsWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddDbContext<AtsWebsiteContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("AtsWebsiteContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
