@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using AtsWebsite.Models;
 
 namespace AtsWebsite.Models
 {
@@ -14,5 +15,7 @@ namespace AtsWebsite.Models
         }
 
         public DbSet<AtsWebsite.Models.Event> Event { get; set; }
+
+        public DbSet<AtsWebsite.Models.EventCopy> EventCopy { get; set; }
     }
 }

@@ -9,3 +9,14 @@ C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2
 C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.AssemblyInfo.cs
 C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.dll
 C:\Users\Kenken\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.pdb
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.deps.json
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.runtimeconfig.json
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.runtimeconfig.dev.json
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.dll
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\bin\Debug\netcoreapp2.0\AtsWebsite.pdb
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.csprojResolveAssemblyReference.cache
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.csproj.CoreCompileInputs.cache
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.AssemblyInfoInputs.cache
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.AssemblyInfo.cs
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.dll
+C:\Users\kladia\Documents\GitHub\ATS\AtsWebsite\AtsWebsite\obj\Debug\netcoreapp2.0\AtsWebsite.pdb

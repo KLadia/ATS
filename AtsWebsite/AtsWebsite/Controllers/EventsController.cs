@@ -37,6 +37,11 @@ namespace AtsWebsite.Controllers
             return View(viewTable);
         }
 
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
         //public async Task<ActionResult> Details(int? id)
         //{
 

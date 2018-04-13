@@ -13163,25 +13163,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kenken\\.nuget\\packages\\": {},
+    "C:\\Users\\kladia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kenken\\Documents\\GitHub\\ATS\\AtsWebsite\\AtsWebsite\\AtsWebsite.csproj",
+      "projectUniqueName": "C:\\Users\\kladia\\Documents\\GitHub\\ATS\\AtsWebsite\\AtsWebsite\\AtsWebsite.csproj",
       "projectName": "AtsWebsite",
-      "projectPath": "C:\\Users\\Kenken\\Documents\\GitHub\\ATS\\AtsWebsite\\AtsWebsite\\AtsWebsite.csproj",
-      "packagesPath": "C:\\Users\\Kenken\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kenken\\Documents\\GitHub\\ATS\\AtsWebsite\\AtsWebsite\\obj\\",
+      "projectPath": "C:\\Users\\kladia\\Documents\\GitHub\\ATS\\AtsWebsite\\AtsWebsite\\AtsWebsite.csproj",
+      "packagesPath": "C:\\Users\\kladia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kladia\\Documents\\GitHub\\ATS\\AtsWebsite\\AtsWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kenken\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kladia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
