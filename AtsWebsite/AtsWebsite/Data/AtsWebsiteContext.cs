@@ -15,7 +15,5 @@ namespace AtsWebsite.Models
         }
 
         public DbSet<AtsWebsite.Models.Event> Event { get; set; }
-
-        public DbSet<AtsWebsite.Models.EventCopy> EventCopy { get; set; }
     }
 }

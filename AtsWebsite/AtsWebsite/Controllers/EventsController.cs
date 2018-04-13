@@ -42,6 +42,9 @@ namespace AtsWebsite.Controllers
             return View();
         }
 
+
+        //
+        //EventCopy eventCopy
         //public async Task<ActionResult> Details(int? id)
         //{
 
