@@ -2,20 +2,25 @@
 @using System.Data;
 
 @{
-    ViewData["Title"] = "Application";
+    ViewData["Title"] = "Ambassador Application";
 }
 
-<h2>Application</h2>
+<h2>Ambassador Application</h2>
 
+@*Email action signs them into their desktop email application*@
 <body>
-    <label>UIN:</label><input type="number" /><br>
-    <label>Full Name:</label><input type="text" /><br>
-    <label>Email:</label><input type="email" /><br>
-    <label>Major:</label><br/>
+    <form action="mailto:jrose@fgcu.edu" method="post" enctype="text/plain">
+        <label>UIN:</label><input type="number" /><br>
+        <label>Full Name:</label><input type="text" /><br>
+        <label>Email:</label><input type="email" /><br>
+        <label>Major:</label><br />
         <input type="radio" name="major" value="Bioengineering"> Bioengineering <br />
         <input type="radio" name="major" value="Civil Engineering"> Civil Engineering <br />
         <input type="radio" name="major" value="Environmental Engineering"> Environmental Engineering <br />
         <input type="radio" name="major" value="Software Engineering"> Software Engineering <br />
         <input type="radio" name="major" value="Other"> Other (Double Major) <br />
-    <button>Submit</button>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <label>Catelog Year:</label><input type="text" /><br>
+    </form>
 </body>

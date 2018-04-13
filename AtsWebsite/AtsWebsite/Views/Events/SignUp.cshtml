@@ -7,21 +7,14 @@
 
 <h2>Sign Up</h2>
 
-@*<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="SignUp">
-           
-        </form>
-    </div>
-</div>*@
-
+@*Email action signs them into their desktop email application*@
 <body>
-    <div class="form-group">
-        <label>Event:</label><input type="text" /><br>
+    <form action="mailto:jrose@fgcu.edu" method="post" enctype="text/plain">
+        <label>Event Name:</label><input type="text" /><br>
         <label>UIN:</label><input type="text" /><br>
         <label>Full Name:</label><input type="text" /><br>
         <label>Email:</label><input type="text" /><br>
         <button>Submit</button>
-    </div>
+        <input type="reset" value="Reset">
+    </form>
 </body>
