@@ -25,14 +25,14 @@ namespace AtsWebsite.Controllers
             //eventsTable.Columns.Add("Zipcode", typeof(int));
 
             eventsTable.Rows.Add(1, "Eagle Expo", new DateTime(2018,2,4), "All", 
-                "We need ambassadors to help provide tours to prospective engineering students.", "No", "No");
+                "We need ambassadors to help provide tours to prospective engineering students.", "No");
             eventsTable.Rows.Add(2, "Solar Go-Kart", new DateTime(2018,4,7), "All", 
-                "Responsibilities include cone set up, traffic direction, clean up, etc.", "No", "No");
+                "Responsibilities include cone set up, traffic direction, clean up, etc.", "No");
             eventsTable.Rows.Add(3, "VIP Student Tours", DateTime.Now, "All", 
-                "Ongoing tours for high school seniors invited to the VIP program.", "No", "No");
+                "Ongoing tours for high school seniors invited to the VIP program.", "No");
 
             DataView view = new DataView(eventsTable);
-            DataTable viewTable = view.ToTable(true, "Event Title", "Date", "Description", "Major", "Dress Code", "Off Campus");
+            DataTable viewTable = view.ToTable(true, "Event Title", "Date", "Description", "Major", "Dress Code");
 
             return View(viewTable);
         }
